@@ -70,7 +70,7 @@
         }
     },
     "scripts": {
-        "php-cs-fixer": "php-cs-fixer fix --diff --diff-format=udiff --config=./.php_cs.dist",
+        "php-cs-fixer": "php-cs-fixer fix --diff --config=./.php-cs-fixer.dist.php",
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
