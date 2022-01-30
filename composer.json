@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0",
+        "php": "^7.4 || ^8.1",
         "ext-json": "*",
         "ext-mbstring": "*",
         "ext-pdo": "*",
@@ -47,7 +47,7 @@
         "barryvdh/laravel-ide-helper": "^2.9",
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.13",
-        "friendsofphp/php-cs-fixer": "^2.18",
+        "friendsofphp/php-cs-fixer": "^3.4",
         "laravel/dusk": "^6.11",
         "mockery/mockery": "^1.4",
         "nunomaduro/collision": "^5.2",
